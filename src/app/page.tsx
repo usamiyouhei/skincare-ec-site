@@ -82,9 +82,25 @@ export default function Home() {
 
                 <p className={styles.category}>{product.category}</p>
                 <h2>{product.name}</h2>
+                <p className={styles.price}>
+                  {product.price}
+                  <small>（税込）</small>
+                </p>
+                <button className={styles.addButton}>カートに入れる</button>
               </article>
             ))}
           </div>
+        </section>
+
+        <section className={styles.news}>
+          <p className={styles.englishTitle}>NEWS</p>
+          <h2 className={styles.newsTitle}>お店からのお知らせ</h2>
+
+          <p>
+            amenowa
+            organicのスキンケアラインに、新しいギフト包装が登場しました。
+          </p>
+          <p>環境に配慮した簡易包装もお選びいただけます。</p>
         </section>
       </main>
     </>
