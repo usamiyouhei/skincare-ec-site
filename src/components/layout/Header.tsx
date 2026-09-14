@@ -15,19 +15,19 @@ export default function Header() {
           <strong>amenowa organic</strong>
           <small>NATURAL COSME</small>
         </span>
-
-        <nav className={styles.actions}>
-          <Link className={styles.iconButton} href="#">
-            ⌂
-          </Link>
-          <Link href="/cart" className={styles.cart}>
-            🛒 カート 0
-          </Link>
-          <Link href="/" className={styles.login}>
-            → ログイン
-          </Link>
-        </nav>
       </Link>
+
+      <nav className={styles.actions}>
+        <Link className={styles.iconButton} href="#">
+          ⌂
+        </Link>
+        <Link href="/cart" className={styles.cart}>
+          🛒 カート 0
+        </Link>
+        <Link href="/" className={styles.login}>
+          → ログイン
+        </Link>
+      </nav>
     </div>
   );
 }
